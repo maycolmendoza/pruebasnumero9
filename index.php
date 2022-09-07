@@ -2,8 +2,8 @@
 
 
 $routes = [
-'inicio'=> '/prueba3/',
-'poster' => '/prueba3/poster'
+'inicio'=> '/',
+'poster' => '/poster'
 ];
 $urlactual= $_SERVER['REQUEST_URI'];
 if ($urlactual == $routes["inicio"]){
